@@ -28,3 +28,10 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install fastapi uvicorn pandas python-multipart
 uvicorn main:app --reload
+### 2. Frontend Setup (React/Vite)
+Open a second, separate terminal and navigate to the `frontend` folder:
+```bash
+cd frontend
+npm install
+npm install axios
+npm run dev
