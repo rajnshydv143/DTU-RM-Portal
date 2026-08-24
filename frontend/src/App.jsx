@@ -19,7 +19,7 @@ function App() {
     formData.append("file", file)
 
     try {
-      const response = await axios.post("https://dtu-rm-portal.onrender.com", formData)
+      const response = await axios.post("https://dtu-rm-portal.onrender.com/api/upload", formData)
       setStudents(response.data.data)
       setDebarredIds(new Set())
       setCurrentPage(1)
