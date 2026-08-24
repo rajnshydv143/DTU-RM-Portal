@@ -3,7 +3,7 @@
 A full-stack Student Data Pipeline and filtering interface built for the DTU Technical Assessment. This application automatically sanitizes raw student datasets and provides a real-time, high-performance dashboard for recruiters to shortlist candidates.
 
 ## 🎥 Video Demonstration
-[**Click here to watch the Demo Video**](INSERT_YOUR_VIDEO_LINK_HERE)
+[**Click here to watch the Demo Video**](https://drive.google.com/file/d/1Z_KA7vd20j7HhD8awxC_P57Ksq09P9hD/view?usp=sharing)
 
 ## 🚀 Features & UI Functionality
 * **Dynamic Score Filter:** A range slider that instantly updates the active shortlist and recalculates live statistics.
