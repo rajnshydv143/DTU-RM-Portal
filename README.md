@@ -3,7 +3,7 @@
 A full-stack Student Data Pipeline and filtering interface built for the DTU Technical Assessment. This application automatically sanitizes raw student datasets and provides a real-time, high-performance dashboard for recruiters to shortlist candidates.
 
 ## 🎥 Video Demonstration
-[**Click here to watch the 90-second Demo Video**](INSERT_YOUR_VIDEO_LINK_HERE)
+[**Click here to watch the 90-second Demo Video**](https://drive.google.com/file/d/1Z_KA7vd20j7HhD8awxC_P57Ksq09P9hD/view?usp=drive_link)
 
 ## 🚀 Features & UI Functionality
 * **Dynamic Score Filter:** A range slider that instantly updates the active shortlist and recalculates live statistics.
@@ -28,3 +28,14 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install fastapi uvicorn pandas python-multipart
 uvicorn main:app --reload
+```
+
+### 2. Frontend Setup (React/Vite)
+Open a second, separate terminal and navigate to the `frontend` folder:
+```bash
+cd frontend
+npm install
+npm install axios
+npm run dev
+```
+Access the portal in your browser at `http://localhost:5173`.
