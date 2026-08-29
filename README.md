@@ -1,5 +1,6 @@
 # DTU Recruitment Manager (RM) Portal 🎓
 
+Here is deployed web link: https://dtu-rm-portal.netlify.app/
 A full-stack Student Data Pipeline and filtering interface built for the DTU Technical Assessment. This application automatically sanitizes raw student datasets and provides a real-time, high-performance dashboard for recruiters to shortlist candidates.
 
 ## 🎥 Video Demonstration
